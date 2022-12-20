@@ -1,0 +1,51 @@
+.event_container {
+    width: 30%;
+    min-width: 300px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #270F33;
+    color: white;
+}
+
+.event_container .event_photo {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: calc(1/1);
+}
+
+.event_container div {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    min-height: 350px;
+
+}
+
+.event_container div>.title {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.event_container div .description,
+.event_container div .ticket_price {
+    font-size: 14px;
+}
+
+.event_container div .ticket_price span {
+    margin: 10px;
+}
+
+.event_container div .date {
+    font-size: 16px;
+}

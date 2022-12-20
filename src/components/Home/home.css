@@ -1,0 +1,144 @@
+.container {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.home_banner {
+    width: 100%;
+    height: 600px;
+    background-image: url("../../assets//images/home_banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home_banner .banner_top {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.home_banner .banner_top div {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    font-weight: 400 !important;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.home_banner .banner_top div button {
+    color: #FEA901;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.size_50 {
+    font-size: 50px;
+    font-weight: 400 !important;
+}
+
+.size_35 {
+    font-size: 35px;
+    font-weight: 400 !important;
+}
+
+.size_30 {
+    font-size: 30px;
+    font-weight: 400 !important;
+}
+
+@media(max-width:1080px) {
+    .size_50 {
+        font-size: 45px;
+    }
+
+    .size_35 {
+        font-size: 30px;
+    }
+
+    .size_30 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:992px) {
+    .size_50 {
+        font-size: 40px;
+
+    }
+
+    .size_35 {
+        font-size: 25px;
+
+    }
+
+    .size_30 {
+        font-size: 20px;
+
+    }
+}
+
+@media(max-width:576px) {
+    .size_50 {
+        font-size: 30px;
+    }
+
+    .size_35 {
+        font-size: 22px;
+    }
+
+    .size_30 {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:400px) {
+    .size_50 {
+        font-size: 20px;
+    }
+
+    .size_35 {
+        font-size: 16px;
+    }
+
+    .size_30 {
+        font-size: 14px;
+    }
+}
+
+.home_events {
+    width: 100%;
+    padding: 40px;
+}
+
+.event_name {
+    margin-bottom: 20px;
+}
+
+.events {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: auto;
+}
